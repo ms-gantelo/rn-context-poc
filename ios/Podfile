@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'rnContextPoc' do
-  # Pods for rnContextPoc
+target 'rcaApp' do
+  # Pods for rcaApp
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -78,7 +78,7 @@ target 'rnContextPoc' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
 
-  target 'rnContextPocTests' do
+  target 'rcaAppTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -95,10 +95,10 @@ target 'rnContextPoc' do
   end
 end
 
-target 'rnContextPoc-tvOS' do
-  # Pods for rnContextPoc-tvOS
+target 'rcaApp-tvOS' do
+  # Pods for rcaApp-tvOS
 
-  target 'rnContextPoc-tvOSTests' do
+  target 'rcaApp-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

@@ -3,11 +3,11 @@ import { View } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { FlatList } from 'react-native';
 
-import { Input } from '../shared/Input/Input';
+import { Input } from '../../shared/Input/Input';
 import { ListItem } from './components/ListItem';
-import { useArtistEffect } from '../state-mgmt/artist/useArtistEffect';
-import { IArtist } from '../state-mgmt/artist/state';
-import { GlobalContext } from '../state-mgmt/GlobalState';
+import { useArtistEffect } from '../../store/artist/useArtistEffect';
+import { IArtist } from '../../store/artist/state';
+import { GlobalContext } from '../../store/GlobalState';
 import { styles } from './styles';
 
 // prettier-ignore

@@ -3,7 +3,7 @@ import { View, Text, Image } from 'react-native';
 
 import { styles } from './styles';
 import { TouchableOpacity } from 'react-native';
-import { IArtist } from '../../../state-mgmt/artist/state';
+import { IArtist } from '../../../../store/artist/state';
 
 export interface Props {
   artist: IArtist;

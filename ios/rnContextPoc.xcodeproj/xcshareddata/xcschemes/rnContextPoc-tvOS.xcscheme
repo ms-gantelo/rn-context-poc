@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "rnContextPoc-tvOS.app"
-               BlueprintName = "rnContextPoc-tvOS"
-               ReferencedContainer = "container:rnContextPoc.xcodeproj">
+               BuildableName = "rcaApp-tvOS.app"
+               BlueprintName = "rcaApp-tvOS"
+               ReferencedContainer = "container:rcaApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "rnContextPoc-tvOSTests.xctest"
-               BlueprintName = "rnContextPoc-tvOSTests"
-               ReferencedContainer = "container:rnContextPoc.xcodeproj">
+               BuildableName = "rcaApp-tvOSTests.xctest"
+               BlueprintName = "rcaApp-tvOSTests"
+               ReferencedContainer = "container:rcaApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "rnContextPoc-tvOS.app"
-            BlueprintName = "rnContextPoc-tvOS"
-            ReferencedContainer = "container:rnContextPoc.xcodeproj">
+            BuildableName = "rcaApp-tvOS.app"
+            BlueprintName = "rcaApp-tvOS"
+            ReferencedContainer = "container:rcaApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "rnContextPoc-tvOS.app"
-            BlueprintName = "rnContextPoc-tvOS"
-            ReferencedContainer = "container:rnContextPoc.xcodeproj">
+            BuildableName = "rcaApp-tvOS.app"
+            BlueprintName = "rcaApp-tvOS"
+            ReferencedContainer = "container:rcaApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

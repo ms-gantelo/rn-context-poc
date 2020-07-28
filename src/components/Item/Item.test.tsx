@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from 'react-native-testing-library';
 
-import Item from './Item';
-import { getArtist_1, getMockDeps } from '../../test-helpers';
-import { GlobalProvider, initialState } from '../state-mgmt/GlobalState';
+import Item from '.';
+import { getArtist_1, getMockDeps } from '../../../test-helpers';
+import { GlobalProvider, initialState } from '../../store/GlobalState';
 
 describe('Item', () => {
   it('should render', () => {
