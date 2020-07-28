@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* rnContextPocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rnContextPocTests.m */; };
+		00E356F31AD99517003FC87E /* rcaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rcaAppTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,11 +15,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* rnContextPocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rnContextPocTests.m */; };
-		58CE25AA403BCA6D3C16C444 /* libPods-rnContextPoc-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3CF910989016544FDA2394 /* libPods-rnContextPoc-tvOSTests.a */; };
-		865AFDE3FB778BCCF511247D /* libPods-rnContextPoc-rnContextPocTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F01A2F4B14592ADC7E4CFB8 /* libPods-rnContextPoc-rnContextPocTests.a */; };
-		F041378A1E737EA6198B9F34 /* libPods-rnContextPoc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B50ED088628105261A7D1019 /* libPods-rnContextPoc.a */; };
-		F6E98FA9F1F408E12D647B77 /* libPods-rnContextPoc-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A3E1DCB2E3CC022F31EE8D /* libPods-rnContextPoc-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* rcaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rcaAppTests.m */; };
+		58CE25AA403BCA6D3C16C444 /* libPods-rcaApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3CF910989016544FDA2394 /* libPods-rcaApp-tvOSTests.a */; };
+		865AFDE3FB778BCCF511247D /* libPods-rcaApp-rcaAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F01A2F4B14592ADC7E4CFB8 /* libPods-rcaApp-rcaAppTests.a */; };
+		F041378A1E737EA6198B9F34 /* libPods-rcaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B50ED088628105261A7D1019 /* libPods-rcaApp.a */; };
+		F6E98FA9F1F408E12D647B77 /* libPods-rcaApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A3E1DCB2E3CC022F31EE8D /* libPods-rcaApp-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = rnContextPoc;
+			remoteInfo = rcaApp;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "rnContextPoc-tvOS";
+			remoteInfo = "rcaApp-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* rnContextPocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rnContextPocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* rcaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rcaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* rnContextPocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rnContextPocTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* rnContextPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rnContextPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rnContextPoc/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = rnContextPoc/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* rcaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rcaAppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* rcaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rcaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rcaApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = rcaApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rnContextPoc/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rnContextPoc/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rnContextPoc/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* rnContextPoc-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rnContextPoc-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* rnContextPoc-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rnContextPoc-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DC2F65D46D0B4359C78D1F4 /* Pods-rnContextPoc-rnContextPocTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnContextPoc-rnContextPocTests.debug.xcconfig"; path = "Target Support Files/Pods-rnContextPoc-rnContextPocTests/Pods-rnContextPoc-rnContextPocTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3ACA47F628A84816480B7B9C /* Pods-rnContextPoc-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnContextPoc-tvOS.release.xcconfig"; path = "Target Support Files/Pods-rnContextPoc-tvOS/Pods-rnContextPoc-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		450007977F3CDC48DE5C52E7 /* Pods-rnContextPoc-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnContextPoc-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-rnContextPoc-tvOSTests/Pods-rnContextPoc-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4F01AF65183145BE3DB55071 /* Pods-rnContextPoc-rnContextPocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnContextPoc-rnContextPocTests.release.xcconfig"; path = "Target Support Files/Pods-rnContextPoc-rnContextPocTests/Pods-rnContextPoc-rnContextPocTests.release.xcconfig"; sourceTree = "<group>"; };
-		6F01A2F4B14592ADC7E4CFB8 /* libPods-rnContextPoc-rnContextPocTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnContextPoc-rnContextPocTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		769A412B8BC1720801DE5C17 /* Pods-rnContextPoc-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnContextPoc-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-rnContextPoc-tvOS/Pods-rnContextPoc-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		8712D3BABA8990521829C875 /* Pods-rnContextPoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnContextPoc.release.xcconfig"; path = "Target Support Files/Pods-rnContextPoc/Pods-rnContextPoc.release.xcconfig"; sourceTree = "<group>"; };
-		95A3E1DCB2E3CC022F31EE8D /* libPods-rnContextPoc-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnContextPoc-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		95EF8BA85C7B365FABD76BEA /* Pods-rnContextPoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnContextPoc.debug.xcconfig"; path = "Target Support Files/Pods-rnContextPoc/Pods-rnContextPoc.debug.xcconfig"; sourceTree = "<group>"; };
-		9C3CF910989016544FDA2394 /* libPods-rnContextPoc-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnContextPoc-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B50ED088628105261A7D1019 /* libPods-rnContextPoc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnContextPoc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rcaApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rcaApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rcaApp/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* rcaApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rcaApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* rcaApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rcaApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC2F65D46D0B4359C78D1F4 /* Pods-rcaApp-rcaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rcaApp-rcaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-rcaApp-rcaAppTests/Pods-rcaApp-rcaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3ACA47F628A84816480B7B9C /* Pods-rcaApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rcaApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-rcaApp-tvOS/Pods-rcaApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		450007977F3CDC48DE5C52E7 /* Pods-rcaApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rcaApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-rcaApp-tvOSTests/Pods-rcaApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F01AF65183145BE3DB55071 /* Pods-rcaApp-rcaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rcaApp-rcaAppTests.release.xcconfig"; path = "Target Support Files/Pods-rcaApp-rcaAppTests/Pods-rcaApp-rcaAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F01A2F4B14592ADC7E4CFB8 /* libPods-rcaApp-rcaAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rcaApp-rcaAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		769A412B8BC1720801DE5C17 /* Pods-rcaApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rcaApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-rcaApp-tvOS/Pods-rcaApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8712D3BABA8990521829C875 /* Pods-rcaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rcaApp.release.xcconfig"; path = "Target Support Files/Pods-rcaApp/Pods-rcaApp.release.xcconfig"; sourceTree = "<group>"; };
+		95A3E1DCB2E3CC022F31EE8D /* libPods-rcaApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rcaApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EF8BA85C7B365FABD76BEA /* Pods-rcaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rcaApp.debug.xcconfig"; path = "Target Support Files/Pods-rcaApp/Pods-rcaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9C3CF910989016544FDA2394 /* libPods-rcaApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rcaApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50ED088628105261A7D1019 /* libPods-rcaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rcaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F71881C0BF6130EC9F9C7FF3 /* Pods-rnContextPoc-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnContextPoc-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-rnContextPoc-tvOSTests/Pods-rnContextPoc-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F71881C0BF6130EC9F9C7FF3 /* Pods-rcaApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rcaApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-rcaApp-tvOSTests/Pods-rcaApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				865AFDE3FB778BCCF511247D /* libPods-rnContextPoc-rnContextPocTests.a in Frameworks */,
+				865AFDE3FB778BCCF511247D /* libPods-rcaApp-rcaAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F041378A1E737EA6198B9F34 /* libPods-rnContextPoc.a in Frameworks */,
+				F041378A1E737EA6198B9F34 /* libPods-rcaApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6E98FA9F1F408E12D647B77 /* libPods-rnContextPoc-tvOS.a in Frameworks */,
+				F6E98FA9F1F408E12D647B77 /* libPods-rcaApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58CE25AA403BCA6D3C16C444 /* libPods-rnContextPoc-tvOSTests.a in Frameworks */,
+				58CE25AA403BCA6D3C16C444 /* libPods-rcaApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* rnContextPocTests */ = {
+		00E356EF1AD99517003FC87E /* rcaAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* rnContextPocTests.m */,
+				00E356F21AD99517003FC87E /* rcaAppTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = rnContextPocTests;
+			path = rcaAppTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* rnContextPoc */ = {
+		13B07FAE1A68108700A75B9A /* rcaApp */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = rnContextPoc;
+			name = rcaApp;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				B50ED088628105261A7D1019 /* libPods-rnContextPoc.a */,
-				6F01A2F4B14592ADC7E4CFB8 /* libPods-rnContextPoc-rnContextPocTests.a */,
-				95A3E1DCB2E3CC022F31EE8D /* libPods-rnContextPoc-tvOS.a */,
-				9C3CF910989016544FDA2394 /* libPods-rnContextPoc-tvOSTests.a */,
+				B50ED088628105261A7D1019 /* libPods-rcaApp.a */,
+				6F01A2F4B14592ADC7E4CFB8 /* libPods-rcaApp-rcaAppTests.a */,
+				95A3E1DCB2E3CC022F31EE8D /* libPods-rcaApp-tvOS.a */,
+				9C3CF910989016544FDA2394 /* libPods-rcaApp-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,14 +152,14 @@
 		2F2366C6D2807A672C9DD40C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				95EF8BA85C7B365FABD76BEA /* Pods-rnContextPoc.debug.xcconfig */,
-				8712D3BABA8990521829C875 /* Pods-rnContextPoc.release.xcconfig */,
-				2DC2F65D46D0B4359C78D1F4 /* Pods-rnContextPoc-rnContextPocTests.debug.xcconfig */,
-				4F01AF65183145BE3DB55071 /* Pods-rnContextPoc-rnContextPocTests.release.xcconfig */,
-				769A412B8BC1720801DE5C17 /* Pods-rnContextPoc-tvOS.debug.xcconfig */,
-				3ACA47F628A84816480B7B9C /* Pods-rnContextPoc-tvOS.release.xcconfig */,
-				450007977F3CDC48DE5C52E7 /* Pods-rnContextPoc-tvOSTests.debug.xcconfig */,
-				F71881C0BF6130EC9F9C7FF3 /* Pods-rnContextPoc-tvOSTests.release.xcconfig */,
+				95EF8BA85C7B365FABD76BEA /* Pods-rcaApp.debug.xcconfig */,
+				8712D3BABA8990521829C875 /* Pods-rcaApp.release.xcconfig */,
+				2DC2F65D46D0B4359C78D1F4 /* Pods-rcaApp-rcaAppTests.debug.xcconfig */,
+				4F01AF65183145BE3DB55071 /* Pods-rcaApp-rcaAppTests.release.xcconfig */,
+				769A412B8BC1720801DE5C17 /* Pods-rcaApp-tvOS.debug.xcconfig */,
+				3ACA47F628A84816480B7B9C /* Pods-rcaApp-tvOS.release.xcconfig */,
+				450007977F3CDC48DE5C52E7 /* Pods-rcaApp-tvOSTests.debug.xcconfig */,
+				F71881C0BF6130EC9F9C7FF3 /* Pods-rcaApp-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -175,9 +175,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* rnContextPoc */,
+				13B07FAE1A68108700A75B9A /* rcaApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* rnContextPocTests */,
+				00E356EF1AD99517003FC87E /* rcaAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				2F2366C6D2807A672C9DD40C /* Pods */,
@@ -190,10 +190,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* rnContextPoc.app */,
-				00E356EE1AD99517003FC87E /* rnContextPocTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* rnContextPoc-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* rnContextPoc-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* rcaApp.app */,
+				00E356EE1AD99517003FC87E /* rcaAppTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* rcaApp-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* rcaApp-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* rnContextPocTests */ = {
+		00E356ED1AD99517003FC87E /* rcaAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rnContextPocTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rcaAppTests" */;
 			buildPhases = (
 				DFEF6F668AE2033FFCDC095B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = rnContextPocTests;
-			productName = rnContextPocTests;
-			productReference = 00E356EE1AD99517003FC87E /* rnContextPocTests.xctest */;
+			name = rcaAppTests;
+			productName = rcaAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* rcaAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* rnContextPoc */ = {
+		13B07F861A680F5B00A75B9A /* rcaApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rnContextPoc" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rcaApp" */;
 			buildPhases = (
 				69ED104D4FC06CCE03CB8308 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = rnContextPoc;
-			productName = rnContextPoc;
-			productReference = 13B07F961A680F5B00A75B9A /* rnContextPoc.app */;
+			name = rcaApp;
+			productName = rcaApp;
+			productReference = 13B07F961A680F5B00A75B9A /* rcaApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* rnContextPoc-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* rcaApp-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnContextPoc-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rcaApp-tvOS" */;
 			buildPhases = (
 				0BA0270F23B5695534D5682F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -255,14 +255,14 @@
 			);
 			dependencies = (
 			);
-			name = "rnContextPoc-tvOS";
-			productName = "rnContextPoc-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* rnContextPoc-tvOS.app */;
+			name = "rcaApp-tvOS";
+			productName = "rcaApp-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* rcaApp-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* rnContextPoc-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* rcaApp-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnContextPoc-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rcaApp-tvOSTests" */;
 			buildPhases = (
 				709900FD781494162F5EA2BA /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "rnContextPoc-tvOSTests";
-			productName = "rnContextPoc-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* rnContextPoc-tvOSTests.xctest */;
+			name = "rcaApp-tvOSTests";
+			productName = "rcaApp-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* rcaApp-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -305,7 +305,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rnContextPoc" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rcaApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -318,10 +318,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* rnContextPoc */,
-				00E356ED1AD99517003FC87E /* rnContextPocTests */,
-				2D02E47A1E0B4A5D006451C7 /* rnContextPoc-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* rnContextPoc-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* rcaApp */,
+				00E356ED1AD99517003FC87E /* rcaAppTests */,
+				2D02E47A1E0B4A5D006451C7 /* rcaApp-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* rcaApp-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -390,7 +390,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rnContextPoc-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-rcaApp-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -426,7 +426,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rnContextPoc-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-rcaApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -448,7 +448,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rnContextPoc-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-rcaApp-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -470,7 +470,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rnContextPoc-rnContextPocTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-rcaApp-rcaAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -522,7 +522,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* rnContextPocTests.m in Sources */,
+				00E356F31AD99517003FC87E /* rcaAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* rnContextPocTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* rcaAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,12 +557,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* rnContextPoc */;
+			target = 13B07F861A680F5B00A75B9A /* rcaApp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* rnContextPoc-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* rcaApp-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -574,7 +574,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = rnContextPoc;
+			path = rcaApp;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -582,14 +582,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DC2F65D46D0B4359C78D1F4 /* Pods-rnContextPoc-rnContextPocTests.debug.xcconfig */;
+			baseConfigurationReference = 2DC2F65D46D0B4359C78D1F4 /* Pods-rcaApp-rcaAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = rnContextPocTests/Info.plist;
+				INFOPLIST_FILE = rcaAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -599,17 +599,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnContextPoc.app/rnContextPoc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rcaApp.app/rcaApp";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F01AF65183145BE3DB55071 /* Pods-rnContextPoc-rnContextPocTests.release.xcconfig */;
+			baseConfigurationReference = 4F01AF65183145BE3DB55071 /* Pods-rcaApp-rcaAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = rnContextPocTests/Info.plist;
+				INFOPLIST_FILE = rcaAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -619,13 +619,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnContextPoc.app/rnContextPoc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rcaApp.app/rcaApp";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95EF8BA85C7B365FABD76BEA /* Pods-rnContextPoc.debug.xcconfig */;
+			baseConfigurationReference = 95EF8BA85C7B365FABD76BEA /* Pods-rcaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -635,7 +635,7 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = rnContextPoc/Info.plist;
+				INFOPLIST_FILE = rcaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -643,7 +643,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = rnContextPoc;
+				PRODUCT_NAME = rcaApp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -652,12 +652,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8712D3BABA8990521829C875 /* Pods-rnContextPoc.release.xcconfig */;
+			baseConfigurationReference = 8712D3BABA8990521829C875 /* Pods-rcaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = rnContextPoc/Info.plist;
+				INFOPLIST_FILE = rcaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = rnContextPoc;
+				PRODUCT_NAME = rcaApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -673,7 +673,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 769A412B8BC1720801DE5C17 /* Pods-rnContextPoc-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 769A412B8BC1720801DE5C17 /* Pods-rcaApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -684,14 +684,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "rnContextPoc-tvOS/Info.plist";
+				INFOPLIST_FILE = "rcaApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rnContextPoc-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rcaApp-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -701,7 +701,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ACA47F628A84816480B7B9C /* Pods-rnContextPoc-tvOS.release.xcconfig */;
+			baseConfigurationReference = 3ACA47F628A84816480B7B9C /* Pods-rcaApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -712,14 +712,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "rnContextPoc-tvOS/Info.plist";
+				INFOPLIST_FILE = "rcaApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rnContextPoc-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rcaApp-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -729,7 +729,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 450007977F3CDC48DE5C52E7 /* Pods-rnContextPoc-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 450007977F3CDC48DE5C52E7 /* Pods-rcaApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -739,24 +739,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "rnContextPoc-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "rcaApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rnContextPoc-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rcaApp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnContextPoc-tvOS.app/rnContextPoc-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rcaApp-tvOS.app/rcaApp-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F71881C0BF6130EC9F9C7FF3 /* Pods-rnContextPoc-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = F71881C0BF6130EC9F9C7FF3 /* Pods-rcaApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -766,17 +766,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "rnContextPoc-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "rcaApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rnContextPoc-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rcaApp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnContextPoc-tvOS.app/rnContextPoc-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rcaApp-tvOS.app/rcaApp-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -897,7 +897,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rnContextPocTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rcaAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -906,7 +906,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rnContextPoc" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rcaApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -915,7 +915,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnContextPoc-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rcaApp-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -924,7 +924,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnContextPoc-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rcaApp-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -933,7 +933,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rnContextPoc" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rcaApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

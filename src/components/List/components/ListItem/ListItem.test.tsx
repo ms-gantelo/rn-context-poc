@@ -2,7 +2,7 @@ import React from 'react';
 import { render, fireEvent } from 'react-native-testing-library';
 
 import ListItem, { Props } from './ListItem';
-import { getArtist_1 } from '../../../../test-helpers';
+import { getArtist_1 } from '../../../../../test-helpers';
 
 describe('ListItem', () => {
   let props: Props;

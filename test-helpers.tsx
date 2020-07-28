@@ -1,5 +1,5 @@
-import { IArtist } from './src/state-mgmt/artist/state';
-import { Deps } from './src/state-mgmt/types';
+import { IArtist } from './src/store/artist/state';
+import { Deps } from './src/store/types';
 
 export const getMockDeps = (): Deps =>
   ({
